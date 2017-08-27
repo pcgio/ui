@@ -1,0 +1,12 @@
+#export SPRING_PROFILES_ACTIVE=dev
+
+server:
+  context-path: /
+  port: 8080
+
+spring:
+  application:
+    name: ui
+  groovy:
+    template:
+      exposeRequestAttributes: true
